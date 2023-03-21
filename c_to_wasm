@@ -1,0 +1,1 @@
+emcc src/c/example.c -s WASM=1 -s STANDALONE_WASM -s EXPORTED_FUNCTIONS="['_add']" -s EXPORTED_RUNTIME_METHODS="['cwrap']" -s -o src/example.wasm

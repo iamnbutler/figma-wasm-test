@@ -11,7 +11,8 @@
     "license": "",
     "devDependencies": {
         "@figma/plugin-typings": "*",
+        "esbuild": "*",
         "typescript": "*",
-        "esbuild": "*"
+        "wasm-loader": "^1.3.0"
     }
 }
