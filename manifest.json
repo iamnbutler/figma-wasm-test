@@ -1,0 +1,11 @@
+{
+    "name": "wasm-test",
+    "id": "1220063519666222423",
+    "api": "1.0.0",
+    "main": "dist/code.js",
+    "capabilities": [],
+    "enableProposedApi": false,
+    "editorType": [
+        "figma"
+    ]
+}

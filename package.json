@@ -1,0 +1,17 @@
+{
+    "name": "wasm-test",
+    "version": "1.0.0",
+    "description": "Your Figma Plugin",
+    "main": "dist/code.js",
+    "scripts": {
+        "build": "node esbuild.config.js",
+        "watch": "node esbuild.config.js --watch"
+    },
+    "author": "",
+    "license": "",
+    "devDependencies": {
+        "@figma/plugin-typings": "*",
+        "typescript": "*",
+        "esbuild": "*"
+    }
+}
